@@ -16,7 +16,7 @@ public:
         }
 
         void addLoad(load *tempL){
-          if(counter <= 9){
+          if(counter <= loadcounter){
             l[counter] = tempL;
             counter++;
           }
